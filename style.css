@@ -3643,31 +3643,44 @@ span.resume-date {
 .dark .post-meta ul li a {
   color: #717896;
 }
-.faq-area .clinets-carosule-active .client-single-item .first {
-  border: 1px solid #12d300;
+
+.faq-area .clinets-carosule-active-2 .client-single-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.4;
+}
+.faq-area .clinets-carosule-active-2 .client-single-item .first {
+  /* border: 1px solid #7f7f7f; */
   width: 50%;
-  min-height: 20vh;
-  padding: "4px";
+  /* width: 50%;
+  min-height: 20vh; */
+  padding: "14px";
+}
+.faq-area .clinets-carosule-active-2 .client-single-item .first .first-p {
+  text-align: end;
+  font-size: 0.8rem;
+  padding-right: 10px;
+}
+.faq-area .clinets-carosule-active-2 .client-single-item .first img {
+  width: 80%;
   margin: auto;
 }
-.faq-area .clinets-carosule-active .client-single-item .first .first-p {
-  text-align: end;
-}
-.faq-area .clinets-carosule-active .client-single-item .first .first-span {
+.faq-area .clinets-carosule-active-2 .client-single-item .first .first-span {
   color: #7f7f7f;
 }
-.faq-area .clinets-carosule-active .client-single-item .first .second-p {
+.faq-area .clinets-carosule-active-2 .client-single-item .first .second-p {
   position: absolute;
   width: 100%;
   text-align: center;
   bottom: -5px;
 }
-.faq-area .clinets-carosule-active .client-single-item .first .second-span {
+.faq-area .clinets-carosule-active-2 .client-single-item .first .second-span {
   border: 2px solid #12d300;
   padding: 4px;
   color: #bdbdbd;
   border-radius: 12rem;
-  font-size: 14px;
+  font-size: 0.9rem;
   background: #20222b;
 }
 /*================================================ 
@@ -5403,5 +5416,10 @@ div#bodyContent span {
   color: #252525;
   font-size: 18px;
   font-family: "Montserrat", sans-serif;
+}
+
+.faq-area .clinets-carosule-active-2 .slick-center {
+  background-color: #1c212f;
+  opacity: 1;
 }
 /*================================================ END ================================================ */

@@ -168,9 +168,14 @@
     // Hall of fame carousle
     $("#hall-off-fame-carosule-active").slick({
       infinite: true,
-      dots: true,
+      loop: true,
+      dots: false,
+      arrows: false,
       centerMode: true,
-      centerPadding: "40px",
+      autoplay: true,
+      speed: 1000,
+      autoplaySpeed: 1000,
+      centerPadding: "0px",
       slidesToShow: 3,
       responsive: [
         {
@@ -191,6 +196,35 @@
         },
       ],
     });
+    $(".clinets-carosule-active-2").slick({
+      infinite: true,
+      centerMode: true,
+      centerPadding: "0px",
+      slidesToShow: 5,
+      arrows: false,
+      dots: false,
+      autoplay: true,
+      speed: 1000,
+      autoplaySpeed: 2000,
+      responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            centerMode: true,
+            centerPadding: "14px",
+            slidesToShow: 5,
+          },
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            centerMode: true,
+            centerPadding: "4px",
+            slidesToShow: 2,
+          },
+        },
+      ],
+    });
     //single portfolio slider
     $(".portfolio-slider-active").slick({
       dots: false,
@@ -204,23 +238,23 @@
       autoplaySpeed: 2000,
     });
     //partner logo carosule
-    $(".clinets-carosule-active-2").owlCarousel({
-      loop: true,
-      margin: 10,
-      autoplay: true,
-      responsiveClass: true,
-      responsive: {
-        0: {
-          items: 1,
-        },
-        600: {
-          items: 3,
-        },
-        1000: {
-          items: 3,
-        },
-      },
-    });
+    // $(".clinets-carosule-active-2").owlCarousel({
+    //   loop: true,
+    //   margin: 10,
+    //   autoplay: true,
+    //   responsiveClass: true,
+    //   responsive: {
+    //     0: {
+    //       items: 1,
+    //     },
+    //     600: {
+    //       items: 3,
+    //     },
+    //     1000: {
+    //       items: 3,
+    //     },
+    //   },
+    // });
     //isotope
     $("#container").imagesLoaded(function () {
       $(".project-list").isotope({
