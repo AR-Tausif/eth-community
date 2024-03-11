@@ -5426,4 +5426,20 @@ div#bodyContent span {
   background-color: #1c212f;
   opacity: 1;
 }
+
+
+
+/* feedback section */
+.feedback-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.feedback-section-card-wrapper{
+  display: flex; flex-direction: column; gap: 20px;
+}
+
 /*================================================ END ================================================ */

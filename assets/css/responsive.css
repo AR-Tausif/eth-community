@@ -2112,4 +2112,10 @@
     top: 0.2rem;
     font-size: 16px;
   }
+
+
+  /* feedback section */
+  .feedback-section-card-wrapper{
+    margin-top: 20px;
+  }
 }
