@@ -1161,7 +1161,7 @@ a.comman-btn {
   outline: none;
   border: none;
   text-transform: uppercase;
-  line-height: 2;
+  /* line-height: 2; */
   position: relative;
   display: inline-block;
   text-decoration: none;
@@ -1896,7 +1896,7 @@ h2.skill-heading {
   transform: rotate(270deg);
   font-size: 30px;
 }
-h2.skill-heading:before {
+/* h2.skill-heading:before {
   position: absolute;
   top: 50%;
   left: 0;
@@ -1904,7 +1904,7 @@ h2.skill-heading:before {
   height: 2px;
   content: "";
   background: #29e519;
-}
+} */
 .homepage-2 h2.skill-heading:before {
   background: #3e4455;
 }
@@ -1949,11 +1949,12 @@ h2.skill-heading:before {
 .skillbar-title span {
   display: block;
   height: 35px;
-  line-height: 35px;
+  line-height: 27px;
   color: #c0c4d6;
   font-size: 0.875rem;
   font-weight: 500;
-  letter-spacing: 3px;
+  letter-spacing: 0.5px;
+  /* letter-spacing: 3px; */
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
 }
@@ -3410,6 +3411,8 @@ span.resume-date {
   font-family: "Montserrat", sans-serif;
 }
 .jems-testi-wrepper {
+  width: 24rem;
+  margin: auto;
   padding: 45px 17px 45px 17px;
 }
 .jems-testi-meta span {

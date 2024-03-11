@@ -2056,6 +2056,20 @@
   }
 
   /* custom style */
+
+  /* about page section */
+
+  .dark .skillbar-title span {
+    display: block;
+    height: 35px;
+    line-height: 27px;
+    font-size: 0.7rem;
+    font-weight: 500;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+  }
+  /* hall of the fame page section */
   .clinets-carosule-active .client-single-item .hall-of-fame .part-div {
     display: flex;
     gap: 3px;
@@ -2083,5 +2097,19 @@
     width: 120px;
     margin: auto;
     height: auto;
+  }
+
+  /* admin section */
+  .jems-testi-wrepper {
+    width: 0rem;
+  }
+
+  /* member of the month */
+  .faq-area .clinets-carosule-active-2 .client-single-item .first .first-span {
+    color: #7f7f7f;
+    position: relative;
+    left: 5rem;
+    top: 0.2rem;
+    font-size: 16px;
   }
 }

@@ -203,7 +203,7 @@
       slidesToShow: 5,
       arrows: false,
       dots: false,
-      autoplay: true,
+      autoplay: false,
       speed: 1000,
       autoplaySpeed: 500,
       responsive: [
@@ -219,7 +219,7 @@
           breakpoint: 480,
           settings: {
             centerMode: true,
-            centerPadding: "4px",
+            centerPadding: "0px",
             slidesToShow: 1,
           },
         },
