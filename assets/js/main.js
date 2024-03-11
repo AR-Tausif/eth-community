@@ -95,7 +95,7 @@
     // service carosule
     $(".service-teatimonial").slick({
       infinite: true,
-      dots: true,
+      dots: false,
       arrows: false,
       centerPadding: "10px",
       centerMode: true,

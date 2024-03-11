@@ -2175,6 +2175,7 @@ h2.skill-heading:before {
   font-size: 36px;
 }
 .service-teatimonial-item-inner {
+  height: 19rem;
   text-align: center;
 }
 .service-teatimonial-item-inner h4 {
