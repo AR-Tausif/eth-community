@@ -190,7 +190,7 @@
           breakpoint: 480,
           settings: {
             centerMode: true,
-            centerPadding: "40px",
+            centerPadding: "0px",
             slidesToShow: 1,
           },
         },
@@ -206,7 +206,7 @@
       dots: false,
       autoplay: true,
       speed: 3000,
-      autoplaySpeed: 2000,
+      autoplaySpeed: 3000,
       responsive: [
         {
           breakpoint: 768,
