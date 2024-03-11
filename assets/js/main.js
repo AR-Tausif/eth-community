@@ -198,14 +198,15 @@
     });
     $(".clinets-carosule-active-2").slick({
       infinite: true,
+      loop: true,
       centerMode: true,
       centerPadding: "0px",
       slidesToShow: 5,
       arrows: false,
       dots: false,
-      autoplay: false,
-      speed: 1000,
-      autoplaySpeed: 500,
+      autoplay: true,
+      speed: 3000,
+      autoplaySpeed: 2000,
       responsive: [
         {
           breakpoint: 768,
