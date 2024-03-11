@@ -205,14 +205,14 @@
       dots: false,
       autoplay: true,
       speed: 1000,
-      autoplaySpeed: 2000,
+      autoplaySpeed: 500,
       responsive: [
         {
           breakpoint: 768,
           settings: {
             centerMode: true,
             centerPadding: "14px",
-            slidesToShow: 5,
+            slidesToShow: 3,
           },
         },
         {
@@ -220,7 +220,7 @@
           settings: {
             centerMode: true,
             centerPadding: "4px",
-            slidesToShow: 2,
+            slidesToShow: 1,
           },
         },
       ],

@@ -2054,4 +2054,34 @@
     padding-top: 120px;
     padding-bottom: 0;
   }
+
+  /* custom style */
+  .clinets-carosule-active .client-single-item .hall-of-fame .part-div {
+    display: flex;
+    gap: 3px;
+    align-items: center;
+  }
+
+  .clinets-carosule-active .client-single-item .hall-of-fame .part-div span {
+    background: #12d300;
+    color: #20222b;
+    font-weight: bold;
+    padding: 0px 5px;
+    left: -10px;
+    top: 3px;
+    font-size: small;
+    position: absolute;
+    z-index: 2;
+  }
+  .clinets-carosule-active .client-single-item .hall-of-fame .part-div img {
+    width: 90px;
+  }
+  .clinets-carosule-active .client-single-item .hall-of-fame .part-div h3 {
+    font-size: 0.9rem;
+  }
+  .clinets-carosule-active.owl-carousel .owl-item img {
+    width: 120px;
+    margin: auto;
+    height: auto;
+  }
 }
