@@ -127,13 +127,14 @@
         },
       ],
     });
-    //testimonial carosule
+    //testimonial carosule // admin
     $(".jems-testi-active").slick({
       infinite: true,
       dots: true,
-      arrows: true,
+      arrows: false,
       slidesToShow: 3,
       slidesToScroll: 3,
+      autoplay:true,
       responsive: [
         {
           breakpoint: 1024,
