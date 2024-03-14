@@ -1175,11 +1175,11 @@ a.comman-btn {
   font-family: "Montserrat", sans-serif;
   color: #20222b;
   background: #29e519;
-  border-radius: 12px;
+  border-radius: 50px;
   font-size: 12px;
   font-weight: 600;
   letter-spacing: 2px;
-  padding: 14px 40px;
+  padding: 20px 40px;
   z-index: 1;
 }
 
@@ -1774,6 +1774,7 @@ a.scroll-down-btn:focus {
 }
 .about-right p {
   margin-bottom: 35px;
+  text-align: justify;
 }
 .about-page .about-right p {
   padding-right: 0;
@@ -1830,7 +1831,7 @@ a.scroll-down-btn:focus {
   background-color: #3e4455;
 }
 .comman-btn.about-me-btn-2 {
-  padding: 14px 40px;
+  padding: 20px 40px;
   margin-left: 50px;
 }
 .homepage-2 .comman-btn.about-me-btn-2:hover {
@@ -1887,8 +1888,8 @@ h2.skill-heading {
   position: absolute;
   padding-left: 50px;
   z-index: 1;
-  top: 7%;
-  left: -30%;
+  top: 37%;
+  left: -31%;
   -webkit-transform: rotate(270deg);
   -moz-transform: rotate(270deg);
   -ms-transform: rotate(270deg);
@@ -1896,7 +1897,7 @@ h2.skill-heading {
   transform: rotate(270deg);
   font-size: 30px;
 }
-/* h2.skill-heading:before {
+h2.skill-heading:before {
   position: absolute;
   top: 50%;
   left: 0;
@@ -1904,7 +1905,7 @@ h2.skill-heading {
   height: 2px;
   content: "";
   background: #29e519;
-} */
+}
 .homepage-2 h2.skill-heading:before {
   background: #3e4455;
 }
@@ -1915,7 +1916,7 @@ h2.skill-heading {
   display: block;
   margin-bottom: 115px;
   width: 100%;
-  background: #000000;
+  background: #045c1d;
   height: 7px;
   border-radius: 10px;
   -moz-border-radius: 10px;
@@ -3269,6 +3270,7 @@ span.resume-date {
   position: absolute;
   top: -4px;
   left: 0;
+  width: 35px;
 }
 .resume-content p {
   font-size: 14px;
