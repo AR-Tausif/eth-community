@@ -2181,7 +2181,7 @@ h2.skill-heading:before {
   text-align: center;
 }
 .service-teatimonial-item-inner h4 {
-  font-size: 16px;
+  font-size: 18px;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
@@ -2191,9 +2191,10 @@ h2.skill-heading:before {
   margin-top: 30px;
   margin-bottom: 22px;
   letter-spacing: 2px;
+  font-weight: 900;
 }
 .dark .service-teatimonial-item-inner h4 {
-  color: #c0c4d6;
+  color: white;
 }
 .service-teatimonial ul.slick-dots li {
   display: inline-block;
@@ -3197,7 +3198,7 @@ h2.resume-heading span {
   padding: 0;
 }
 .resume-content {
-  padding: 10px 30px 10px 30px;
+  padding: 19px 30px 30px 30px;
   background: #161922;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -3405,6 +3406,7 @@ span.resume-date {
 .jems-testi-inner p {
   margin-top: 20px;
   margin-bottom: 20px;
+  height: 84px;
   text-align: center;
   font-size: 15px;
   /* font-style: italic; */
@@ -5563,16 +5565,21 @@ body {
   box-sizing: border-box;
 }
 
+
 .content {
+  width: 416px;
   position: relative;
   animation: animatop 0.9s cubic-bezier(0.425, 1.14, 0.47, 1.125) forwards;
+  left: 50%;
+  transform: translate(-50%);
 }
 
 .card {
   min-height: 100px;
+  width: 100%;
   padding: 20px;
-  border-radius: 10px;
-  background-color: white;
+  border-radius: 2px;
+  background-color: #222831;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
   position: relative;
   overflow: hidden;
@@ -5582,7 +5589,7 @@ body {
   display: block;
   width: 190px;
   height: 300px;
-  background: cadetblue;
+  background: #68cc60d6;
   position: absolute;
   animation: rotatemagic 0.3s cubic-bezier(0.425, 1.04, 0.47, 1.105) 0.5s both;
 }
@@ -5590,15 +5597,15 @@ body {
 
 .badgescard {
   opacity: 0;
-  padding: 10px 20px;
+  padding: 13px 20px;
   border-radius: 3px;
   background-color: #ececec;
-  width: 480px;
+  width: 92.6%;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
   position: absolute;
   z-index: -1;
-  left: 10px;
-  transition: 0.1s;
+  left: 17px;
+  transition: 0.5s;
   bottom: 10px;
   animation: animainfos 0.5s cubic-bezier(0.425, 1.04, 0.47, 1.105) 0.75s forwards;
 }
