@@ -176,6 +176,7 @@
       speed: 1000,
       autoplaySpeed: 1000,
       centerPadding: "0px",
+      outerHeight: "10vh",
       slidesToShow: 3,
       responsive: [
         {
