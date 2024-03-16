@@ -715,6 +715,8 @@
   }
   .comman-btn.about-me-btn-2 {
     margin-left: 30px;
+    padding: 18px 40px;
+    font-size: 12px;
   }
   .about-meta {
     margin-bottom: 200px;
@@ -722,7 +724,7 @@
     margin-left: 0;
   }
   .about-right p {
-    padding-right: 0;
+    padding: 0 3px;
   }
   h2.skill-heading {
     top: -130%;
@@ -1460,6 +1462,15 @@
     line-height: 1.2;
     font-style: initial;
   }
+
+  a.comman-btn
+  {
+    padding: 18px 25px;
+  }
+
+  .jems-testi-inner p > br {
+    display: none;
+  }
 }
 @media (min-width:375px) and (max-width: 425px)
 {
@@ -1512,7 +1523,9 @@
     padding-bottom: 80px;
   }
   .comman-btn.about-me-btn-2 {
-    margin-left: 30px;
+    margin-left: 17px;
+    padding: 15px 30px;
+    font-size: 12px;
   }
   .about-meta {
     margin-bottom: 200px;
@@ -1520,7 +1533,7 @@
     margin-left: 0;
   }
   .about-right p {
-    padding-right: 0;
+    padding: 0 3px;
   }
   h2.skill-heading {
     top: -130%;
@@ -2234,6 +2247,11 @@
   {
     padding: 12px;
   }
+
+  .card:hover:after {
+    width: 176px;
+    height: 346px;
+  }
   #hof_contianer .client-single-item .content .card .firstinfo h3
   {
     font-size: 14px;
@@ -2249,7 +2267,7 @@
   }
   .badgescard 
   {
-    width: 90.6%;
+    width: 91%;
   }
   #hof_contianer .client-single-item .content .card .firstinfo .profileinfo p
   {
@@ -2261,6 +2279,23 @@
     line-height: 1;
     font-style: initial;
   } 
+
+  a.comman-btn
+  {
+    padding: 15px 25px;
+  }
+
+  /* admin niloy div */
+  .jems-testi-wrepper_niloy{
+    width: 345px;
+  }
+  .jems-testi-wrepper_niloy .jems-testi-inner p >br
+  {
+    display: none;
+  }
+  .jems-testi-inner p > br {
+    display: none;
+  }
 }
 @media (min-width: 320px) and (max-width: 375px) {
 
@@ -2313,7 +2348,8 @@
     padding-bottom: 80px;
   }
   .comman-btn.about-me-btn-2 {
-    margin-left: 30px;
+    margin-left: 0;
+    padding: 12.1px 37px;
   }
   .about-meta {
     margin-bottom: 200px;
@@ -2321,17 +2357,19 @@
     margin-left: 0;
   }
   .about-right p {
-    padding-right: 0;
+    padding: 0 3px;
   }
   h2.skill-heading {
     top: -130%;
-    left: 15%;
+    left: 7%;
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
   .skill-bar-percent {
     right: 0px;
+    top: 10px;
   }
+
   .skill-left {
     margin-left: 20px;
     margin-right: 20px;
@@ -2541,6 +2579,19 @@
   .skillbar {
     margin-bottom: 90px;
   }
+  .skillbar-title
+  {
+    position: absolute;
+    top: -35px;
+    left: 0;
+    font-family: "Montserrat", sans-serif; 
+  }
+  .skillbar-title span
+  {
+    line-height: 15px;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+  }
   .homepage-2 .slicknav_nav {
     background: #eef1fb;
   }
@@ -2676,7 +2727,7 @@
     padding-bottom: 15px;
   }
   .jems-testi-meta img {
-    left: -64%;
+    width: 5.5rem;
   }
   .jems-testi-meta span {
     font-size: 12px;
@@ -2752,8 +2803,9 @@
     padding-bottom: 0;
   }
   .jems-testi-inner p {
-    font-size: 15px;
-    line-height: 30px;
+    font-size: 13px;
+    line-height: 24px;
+    margin: 10px 0px 14px 0px;
   }
   /* .jems-testi-meta {
     margin: 50px 0px 0px 85px;
@@ -2831,6 +2883,12 @@
   }
   .about-project-left h2 {
     font-size: 30px;
+  }
+  a.comman-btn
+  {
+    padding: 12px 23px;
+    margin-left: 4px;
+    font-size: 10px;
   }
   .portfolio-page .next-btn a.comman-btn {
     padding: 6px 20px;
@@ -3074,7 +3132,29 @@
     padding: 6px 0px;
     line-height: 1;
     font-style: initial;
-  } 
+  }
+
+  /* admin niloy div */
+  .jems-testi-wrepper_niloy{
+    width: 290px;
+  }
+  .jems-testi-wrepper_niloy .jems-testi-inner p >br
+  {
+    display: none;
+  }
+
+  .jems-testi-inner p > br {
+    display: none;
+  }
+
+  .jems-testi-inner{
+    padding: 20px;
+  }
+
+  .container
+  {
+    top:100px;
+  }
 }
 
 
@@ -3150,6 +3230,11 @@
     font-size: 14px;
     line-height: 28px;
   }
+  .jems-testi-inner p > br {
+    display: none;
+  }
+
+  
   /* .jems-testi-meta {
     margin: 50px 0px 0px 85px;
   } */
