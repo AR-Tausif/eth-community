@@ -3406,7 +3406,6 @@ span.resume-date {
 .jems-testi-inner p {
   margin-top: 20px;
   margin-bottom: 20px;
-  height: 84px;
   text-align: center;
   font-size: 15px;
   /* font-style: italic; */
@@ -5567,7 +5566,7 @@ body {
 
 
 .content {
-  width: 416px;
+  width: 40%;
   position: relative;
   animation: animatop 0.9s cubic-bezier(0.425, 1.14, 0.47, 1.125) forwards;
   left: 50%;
